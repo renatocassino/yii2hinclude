@@ -3,6 +3,7 @@
 namespace TokenPost;
 
 use yii\base\Widget;
+use yii\helpers\Html;
 use Yii;
 
 class Yii2Hinclude extends Widget
@@ -12,4 +13,14 @@ class Yii2Hinclude extends Widget
 	public $js = [
 		'hinclude.js',
 	];
+
+	public function init()
+	{
+		Yii2HincludeAsset::register($this->getView());
+	}
+
+	public function run()
+	{
+		
+	}
 }

@@ -13,7 +13,6 @@
     },
     "autoload": {
         "psr-0": {
-            "HelloWorld": "src/",
             "TokenPost": "src/"
         }
     }

@@ -22,5 +22,7 @@ How to usage:
 use \TokenPost\Yii2Hinclude;
 
 Yii2Hinclude::begin(['url'=>['page','id'=>3]);
+    // if you are using fontawesome
+    echo '<i class="fa fa-spinner fa-spin"></i>';
 Yii2Hinclude::end();
 ```

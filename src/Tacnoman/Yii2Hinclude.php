@@ -1,6 +1,6 @@
 <?php
 
-namespace TokenPost;
+namespace Tacnoman;
 
 use yii\base\Widget;
 use yii\helpers\Html;

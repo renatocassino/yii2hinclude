@@ -10,7 +10,7 @@ Hinclude adds one element to HTML; hx:include. When the browser encounters this 
 ```JSON
 {
     "require": {
-        "tokenpost/yii2hinclude": "dev-master"
+        "tacnoman/yii2hinclude": "dev-master"
     }
 }
 ```
@@ -19,7 +19,7 @@ How to usage:
 -----------
 
 ```php
-use \TokenPost\Yii2Hinclude;
+use \Tacnoman\Yii2Hinclude;
 
 Yii2Hinclude::begin(['url'=>['page','id'=>3]);
     // if you are using fontawesome
